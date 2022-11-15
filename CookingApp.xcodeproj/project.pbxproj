@@ -14,6 +14,7 @@
 		604F75DB292420EF0088B7C6 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DA292420EF0088B7C6 /* FavoritesView.swift */; };
 		604F75DD292420F60088B7C6 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DC292420F60088B7C6 /* TabBar.swift */; };
 		604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DE292422240088B7C6 /* NewRecipeView.swift */; };
+		604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E2292428FA0088B7C6 /* RecipeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		604F75DA292420EF0088B7C6 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		604F75DC292420F60088B7C6 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		604F75DE292422240088B7C6 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		604F75E2292428FA0088B7C6 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		604F75BE29241E320088B7C6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				604F75E2292428FA0088B7C6 /* RecipeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				604F75D9292420E80088B7C6 /* HomeView.swift in Sources */,
 				604F75DB292420EF0088B7C6 /* FavoritesView.swift in Sources */,
 				604F75DD292420F60088B7C6 /* TabBar.swift in Sources */,
+				604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
