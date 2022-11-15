@@ -16,6 +16,7 @@
 		604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DE292422240088B7C6 /* NewRecipeView.swift */; };
 		604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E2292428FA0088B7C6 /* RecipeModel.swift */; };
 		604F75E5292429F80088B7C6 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E4292429F80088B7C6 /* RecipeCard.swift */; };
+		604F75E729242FD30088B7C6 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E629242FD30088B7C6 /* RecipeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		604F75DE292422240088B7C6 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 		604F75E2292428FA0088B7C6 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		604F75E4292429F80088B7C6 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		604F75E629242FD30088B7C6 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				604F75E4292429F80088B7C6 /* RecipeCard.swift */,
+				604F75E629242FD30088B7C6 /* RecipeList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				604F75DD292420F60088B7C6 /* TabBar.swift in Sources */,
 				604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */,
 				604F75E5292429F80088B7C6 /* RecipeCard.swift in Sources */,
+				604F75E729242FD30088B7C6 /* RecipeList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

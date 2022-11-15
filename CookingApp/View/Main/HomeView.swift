@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct HomeView: View {
+    @State private var searchText = ""
+    
     var body: some View {
         NavigationView {
-            List(Recipe.allRecipe) { recipe in
-                Text(recipe.name)
-                    .navigationTitle("Cooking")
+            ScrollView {
+                RecipeList(recipes: Recipe.allRecipe)
+                    .searchable(text: $searchText, prompt: "search recipe...")
             }
+            .navigationTitle("All Recipes")
         }
         .navigationViewStyle(.stack)
     }
