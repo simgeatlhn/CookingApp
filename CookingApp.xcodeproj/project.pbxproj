@@ -17,6 +17,7 @@
 		604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E2292428FA0088B7C6 /* RecipeModel.swift */; };
 		604F75E5292429F80088B7C6 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E4292429F80088B7C6 /* RecipeCard.swift */; };
 		604F75E729242FD30088B7C6 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E629242FD30088B7C6 /* RecipeList.swift */; };
+		604F75ED292436030088B7C6 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75EC292436030088B7C6 /* RecipeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		604F75E2292428FA0088B7C6 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		604F75E4292429F80088B7C6 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		604F75E629242FD30088B7C6 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		604F75EC292436030088B7C6 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		604F75C029241EB50088B7C6 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				604F75EC292436030088B7C6 /* RecipeDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				604F75AE29241DD50088B7C6 /* CookingAppApp.swift in Sources */,
+				604F75ED292436030088B7C6 /* RecipeDetailView.swift in Sources */,
 				604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */,
 				604F75D9292420E80088B7C6 /* HomeView.swift in Sources */,
 				604F75DB292420EF0088B7C6 /* FavoritesView.swift in Sources */,
