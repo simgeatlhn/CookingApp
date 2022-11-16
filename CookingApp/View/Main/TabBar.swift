@@ -11,20 +11,25 @@ struct TabBar: View {
     var body: some View {
         TabView {
             HomeView()
-                .tabItem{
+                .tabItem {
                     Label("Home", systemImage: "homekit")
                 }
             
+            CategoriesView()
+                .tabItem {
+                    Label("Categories", systemImage: "menucard")
+                    
+                }
+            
             NewRecipeView()
-                .tabItem{
+                .tabItem {
                     Label("New", systemImage: "plus.app")
                 }
             
             FavoritesView()
-                .tabItem{
+                .tabItem {
                     Label("Favorites", systemImage: "heart.fill")
                 }
-            
         }
     }
 }
