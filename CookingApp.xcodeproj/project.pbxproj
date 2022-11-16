@@ -60,6 +60,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		601DBC132925847F00CEC403 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				604F75DC292420F60088B7C6 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		604F75A129241DD50088B7C6 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +108,7 @@
 		604F75BC29241E250088B7C6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				601DBC132925847F00CEC403 /* TabBar */,
 				604F75D72924202D0088B7C6 /* Main */,
 				604F75C129241EC10088B7C6 /* Components */,
 				604F75C029241EB50088B7C6 /* Detail */,
@@ -145,7 +154,6 @@
 		604F75D72924202D0088B7C6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				604F75DC292420F60088B7C6 /* TabBar.swift */,
 				604F75D8292420E80088B7C6 /* HomeView.swift */,
 				604F75DE292422240088B7C6 /* NewRecipeView.swift */,
 				601DBC0A292566E300CEC403 /* CategoriesView.swift */,
