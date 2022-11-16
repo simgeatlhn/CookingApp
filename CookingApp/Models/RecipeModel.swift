@@ -29,6 +29,7 @@ struct Recipe: Identifiable {
     let url: String
 }
 
+//Data
 extension Recipe {
     // array equal to array
     static let allRecipe: [Recipe] = [

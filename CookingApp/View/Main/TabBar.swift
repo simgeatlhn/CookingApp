@@ -23,7 +23,7 @@ struct TabBar: View {
             
             NewRecipeView()
                 .tabItem {
-                    Label("New", systemImage: "plus.app")
+                    Label("New Recipe", systemImage: "plus.app")
                 }
             
             FavoritesView()
