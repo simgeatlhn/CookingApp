@@ -15,20 +15,14 @@ struct TabBar: View {
                     Label("Home", systemImage: "homekit")
                 }
             
-            CategoriesView()
-                .tabItem {
-                    Label("Categories", systemImage: "menucard")
-                    
-                }
-            
             NewRecipeView()
                 .tabItem {
                     Label("New Recipe", systemImage: "plus.app")
                 }
             
-            FavoritesView()
+            CategoriesView()
                 .tabItem {
-                    Label("Favorites", systemImage: "heart.fill")
+                    Label("Categories", systemImage: "menucard")
                 }
         }
     }
@@ -37,5 +31,6 @@ struct TabBar: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         TabBar()
+            .environmentObject(RecipesViewModel())
     }
 }

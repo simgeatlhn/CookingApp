@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct CookingAppApp: App {
+    @StateObject var recipesViewModel = RecipesViewModel()
+    
     var body: some Scene {
         WindowGroup {
             TabBar()
+                .environmentObject(recipesViewModel)
         }
     }
 }

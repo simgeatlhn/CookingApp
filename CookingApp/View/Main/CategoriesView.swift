@@ -17,7 +17,6 @@ struct CategoriesView: View {
                     } label: {
                         Text(category.rawValue + "s")
                     }
-                    
                 }
             }
             .navigationTitle("Categories")

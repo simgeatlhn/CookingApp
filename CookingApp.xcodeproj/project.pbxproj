@@ -10,11 +10,11 @@
 		601DBC0B292566E300CEC403 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DBC0A292566E300CEC403 /* CategoriesView.swift */; };
 		601DBC0D292569DA00CEC403 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DBC0C292569DA00CEC403 /* CategoryView.swift */; };
 		601DBC0F29256C2D00CEC403 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DBC0E29256C2D00CEC403 /* AddRecipeView.swift */; };
+		601DBC112925779700CEC403 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601DBC102925779700CEC403 /* RecipesViewModel.swift */; };
 		604F75AE29241DD50088B7C6 /* CookingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75AD29241DD50088B7C6 /* CookingAppApp.swift */; };
 		604F75B229241DD80088B7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604F75B129241DD80088B7C6 /* Assets.xcassets */; };
 		604F75B529241DD80088B7C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 604F75B429241DD80088B7C6 /* Preview Assets.xcassets */; };
 		604F75D9292420E80088B7C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75D8292420E80088B7C6 /* HomeView.swift */; };
-		604F75DB292420EF0088B7C6 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DA292420EF0088B7C6 /* FavoritesView.swift */; };
 		604F75DD292420F60088B7C6 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DC292420F60088B7C6 /* TabBar.swift */; };
 		604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75DE292422240088B7C6 /* NewRecipeView.swift */; };
 		604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E2292428FA0088B7C6 /* RecipeModel.swift */; };
@@ -27,12 +27,12 @@
 		601DBC0A292566E300CEC403 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		601DBC0C292569DA00CEC403 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		601DBC0E29256C2D00CEC403 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		601DBC102925779700CEC403 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 		604F75AA29241DD50088B7C6 /* CookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		604F75AD29241DD50088B7C6 /* CookingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingAppApp.swift; sourceTree = "<group>"; };
 		604F75B129241DD80088B7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		604F75B429241DD80088B7C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		604F75D8292420E80088B7C6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		604F75DA292420EF0088B7C6 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		604F75DC292420F60088B7C6 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		604F75DE292422240088B7C6 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 		604F75E2292428FA0088B7C6 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
@@ -52,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601DBC12292583B600CEC403 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				604F75B129241DD80088B7C6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		604F75A129241DD50088B7C6 = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				604F75AD29241DD50088B7C6 /* CookingAppApp.swift */,
+				601DBC12292583B600CEC403 /* Resources */,
 				604F75BE29241E320088B7C6 /* Models */,
 				604F75BD29241E290088B7C6 /* ViewModels */,
 				604F75BC29241E250088B7C6 /* View */,
-				604F75B129241DD80088B7C6 /* Assets.xcassets */,
 				604F75B329241DD80088B7C6 /* Preview Content */,
 			);
 			path = CookingApp;
@@ -102,6 +110,7 @@
 		604F75BD29241E290088B7C6 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				601DBC102925779700CEC403 /* RecipesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -138,7 +147,6 @@
 			children = (
 				604F75DC292420F60088B7C6 /* TabBar.swift */,
 				604F75D8292420E80088B7C6 /* HomeView.swift */,
-				604F75DA292420EF0088B7C6 /* FavoritesView.swift */,
 				604F75DE292422240088B7C6 /* NewRecipeView.swift */,
 				601DBC0A292566E300CEC403 /* CategoriesView.swift */,
 			);
@@ -218,9 +226,9 @@
 				604F75AE29241DD50088B7C6 /* CookingAppApp.swift in Sources */,
 				604F75ED292436030088B7C6 /* RecipeDetailView.swift in Sources */,
 				601DBC0F29256C2D00CEC403 /* AddRecipeView.swift in Sources */,
+				601DBC112925779700CEC403 /* RecipesViewModel.swift in Sources */,
 				604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */,
 				604F75D9292420E80088B7C6 /* HomeView.swift in Sources */,
-				604F75DB292420EF0088B7C6 /* FavoritesView.swift in Sources */,
 				601DBC0D292569DA00CEC403 /* CategoryView.swift in Sources */,
 				604F75DD292420F60088B7C6 /* TabBar.swift in Sources */,
 				604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */,

@@ -62,7 +62,17 @@ extension Recipe {
            directions: "Combine ground beef, egg, bread crumbs, Parmesan cheese, basil, and onion powder in a bowl; shape into 3/4-inch balls. Heat broth in a large pot over medium-high heat until boiling. Stir in escarole, orzo, carrot, and meatballs and return to boil. Reduce heat to medium and cook at slow boil, stirring frequently to prevent sticking, until pasta is tender yet firm to the bite, about 10 minutes.",
            datePublished: "15-11.22",
            url: "https://www.allrecipes.com/recipe/13024/italian-wedding-soup-i/"
-        )
+        ),
+        Recipe(
+           name: "Breakfast Pizza",
+           image: "https://www.allrecipes.com/thmb/9psSXgs-88a5k3ysrcDjMvLTLC0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/8211782-2288e034d7d7420faf4dbc2c23dcdccd.jpg",
+           description: "This sausage breakfast pizza is made with a combination of all your favorite breakfast foods, such as sausage, cheese, hash browns, and eggs. Top with thinly sliced red, yellow, and green bell peppers for a beautiful (and tasty!) presentation.",
+           ingredients: "2 (16 ounce) packages Regular Flavor Jimmy Dean Pork Sausage, 2 (8.5 ounce) cans refrigerated crescent rolls, 2 cups frozen hash brown potato cubes, thawed, 2 cups shredded sharp Cheddar cheese, 6 large eggs, lightly beaten, ⅓ cup milk, 1 teaspoon salt, 2 teaspoons black pepper, ¼ cup grated Parmesan cheese",
+           category: "Breakfast",
+           directions: "Preheat the oven to 375 degrees F (190 degrees C). Heat a large skillet over medium-high heat. Cook and stir one package sausage in the hot skillet until browned and crumbly, 7 to 10 minutes. Drain and discard grease, and transfer sausage to a bowl. Repeat with remaining sausage. Separate crescent rolls into 16 triangles. Place in two ungreased 12-inch rimmed pizza pans with points toward the center. In each pan, press rolls together, seal perforations and form a circle 1 inch larger in diameter than the bottom of the pan. Turn edges under to make a slight rim. Sprinkle cooked sausage evenly over each crust. Top with potatoes; add bell peppers and green onions. Sprinkle with Cheddar cheese. Combine eggs, milk, salt, and black pepper in small bowl and stir well. Pour half of egg mixture evenly over each pizza. Sprinkle with Parmesan. Bake in the preheated oven for 15 to 20 minutes or until eggs are set and crusts are golden.",
+           datePublished: "15-11.22",
+           url: "https://www.allrecipes.com/recipe/84068/jimmy-dean-sausage-breakfast-pizza/"
+        ),
     ]
 }
 
