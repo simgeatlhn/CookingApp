@@ -117,9 +117,7 @@
 		604F75C029241EB50088B7C6 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				601DBC0C292569DA00CEC403 /* CategoryView.swift */,
 				604F75EC292436030088B7C6 /* RecipeDetailView.swift */,
-				601DBC0E29256C2D00CEC403 /* AddRecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -129,6 +127,8 @@
 			children = (
 				604F75E4292429F80088B7C6 /* RecipeCard.swift */,
 				604F75E629242FD30088B7C6 /* RecipeList.swift */,
+				601DBC0C292569DA00CEC403 /* CategoryView.swift */,
+				601DBC0E29256C2D00CEC403 /* AddRecipeView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
