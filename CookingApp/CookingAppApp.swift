@@ -13,7 +13,7 @@ struct CookingAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            TabBar()
+            ContentView()
                 .environmentObject(recipesViewModel)
         }
     }

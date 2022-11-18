@@ -21,6 +21,10 @@
 		604F75E5292429F80088B7C6 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E4292429F80088B7C6 /* RecipeCard.swift */; };
 		604F75E729242FD30088B7C6 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75E629242FD30088B7C6 /* RecipeList.swift */; };
 		604F75ED292436030088B7C6 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604F75EC292436030088B7C6 /* RecipeDetailView.swift */; };
+		60D12C732927BF70002D47AB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 60D12C722927BF70002D47AB /* Lottie */; };
+		60D12C752927C279002D47AB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D12C742927C279002D47AB /* LottieView.swift */; };
+		60D12C772927C2D0002D47AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D12C762927C2D0002D47AB /* ContentView.swift */; };
+		60D12C792927C3AC002D47AB /* 6519-cooking.json in Resources */ = {isa = PBXBuildFile; fileRef = 60D12C782927C3AC002D47AB /* 6519-cooking.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,9 @@
 		604F75E4292429F80088B7C6 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		604F75E629242FD30088B7C6 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		604F75EC292436030088B7C6 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		60D12C742927C279002D47AB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		60D12C762927C2D0002D47AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60D12C782927C3AC002D47AB /* 6519-cooking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "6519-cooking.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D12C732927BF70002D47AB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				604F75B129241DD80088B7C6 /* Assets.xcassets */,
+				60D12C782927C3AC002D47AB /* 6519-cooking.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -108,6 +117,7 @@
 		604F75BC29241E250088B7C6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				60D12C652927BCBD002D47AB /* SplashScreen */,
 				601DBC132925847F00CEC403 /* TabBar */,
 				604F75D72924202D0088B7C6 /* Main */,
 				604F75C129241EC10088B7C6 /* Components */,
@@ -154,11 +164,20 @@
 		604F75D72924202D0088B7C6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				60D12C762927C2D0002D47AB /* ContentView.swift */,
 				604F75D8292420E80088B7C6 /* HomeView.swift */,
 				604F75DE292422240088B7C6 /* NewRecipeView.swift */,
 				601DBC0A292566E300CEC403 /* CategoriesView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		60D12C652927BCBD002D47AB /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				60D12C742927C279002D47AB /* LottieView.swift */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +196,9 @@
 			dependencies = (
 			);
 			name = CookingApp;
+			packageProductDependencies = (
+				60D12C722927BF70002D47AB /* Lottie */,
+			);
 			productName = CookingApp;
 			productReference = 604F75AA29241DD50088B7C6 /* CookingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -205,6 +227,9 @@
 				Base,
 			);
 			mainGroup = 604F75A129241DD50088B7C6;
+			packageReferences = (
+				60D12C712927BF70002D47AB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 604F75AB29241DD50088B7C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				604F75B529241DD80088B7C6 /* Preview Assets.xcassets in Resources */,
+				60D12C792927C3AC002D47AB /* 6519-cooking.json in Resources */,
 				604F75B229241DD80088B7C6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,12 +259,14 @@
 			files = (
 				604F75AE29241DD50088B7C6 /* CookingAppApp.swift in Sources */,
 				604F75ED292436030088B7C6 /* RecipeDetailView.swift in Sources */,
+				60D12C772927C2D0002D47AB /* ContentView.swift in Sources */,
 				601DBC0F29256C2D00CEC403 /* AddRecipeView.swift in Sources */,
 				601DBC112925779700CEC403 /* RecipesViewModel.swift in Sources */,
 				604F75DF292422240088B7C6 /* NewRecipeView.swift in Sources */,
 				604F75D9292420E80088B7C6 /* HomeView.swift in Sources */,
 				601DBC0D292569DA00CEC403 /* CategoryView.swift in Sources */,
 				604F75DD292420F60088B7C6 /* TabBar.swift in Sources */,
+				60D12C752927C279002D47AB /* LottieView.swift in Sources */,
 				604F75E3292428FA0088B7C6 /* RecipeModel.swift in Sources */,
 				604F75E5292429F80088B7C6 /* RecipeCard.swift in Sources */,
 				601DBC0B292566E300CEC403 /* CategoriesView.swift in Sources */,
@@ -443,6 +471,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60D12C712927BF70002D47AB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 4.0.0;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60D12C722927BF70002D47AB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60D12C712927BF70002D47AB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 604F75A229241DD50088B7C6 /* Project object */;
 }
