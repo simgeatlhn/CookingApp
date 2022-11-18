@@ -25,8 +25,12 @@ struct TabBar: View {
                     Label("Categories", systemImage: "menucard")
                 }
         }
+        .accentColor(.indigo)
     }
 }
+
+
+
 
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {

@@ -10,11 +10,11 @@ import SwiftUI
 struct HomeView: View {
     @State private var searchText = ""
     @EnvironmentObject var recipesVM: RecipesViewModel
- 
+    
     var body: some View {
         NavigationView {
             ScrollView {
-                    RecipeList(recipes: recipesVM.recipes)
+                RecipeList(recipes: recipesVM.recipes)
             }
             .searchable(text: $searchText, prompt: "search recipe...")
             .navigationTitle("All Recipes")

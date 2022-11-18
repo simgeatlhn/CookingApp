@@ -16,7 +16,7 @@ struct RecipeDetailView: View {
                 image
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-            }placeholder: {
+            } placeholder: {
                 Image(systemName: "photo")
                     .resizable()
                     .scaledToFit()
@@ -38,17 +38,19 @@ struct RecipeDetailView: View {
                     
                     VStack(alignment: .leading, spacing: 20) {
                         Text("Ingredients")
+                            .foregroundColor(.indigo)
                             .font(.headline)
                             .bold()
                             .foregroundColor(.black)
                         Text(recipe.ingredients)
                     }
-                        VStack(alignment: .leading, spacing: 20) {
-                            Text("Directions")
-                                .font(.headline)
-                                .bold()
-                                .foregroundColor(.black)
-                            Text(recipe.directions)
+                    VStack(alignment: .leading, spacing: 20) {
+                        Text("Directions")
+                            .foregroundColor(.indigo)
+                            .font(.headline)
+                            .bold()
+                            .foregroundColor(.black)
+                        Text(recipe.directions)
                     }
                 }
             }

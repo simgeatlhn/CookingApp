@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AddRecipeView: View {
-   
+    
     @State private var name: String = ""
     @State private var selectedCategory: Category = Category.main
     @State private var description: String = ""
@@ -43,12 +43,10 @@ struct AddRecipeView: View {
                 
                 Section(header: Text("Ingredients")) {
                     TextEditor(text: $ingredients)
-                    
                 }
                 
                 Section(header: Text("Directions")) {
                     TextEditor(text: $directions)
-                    
                 }
             }
             .toolbar(content: {
@@ -58,6 +56,7 @@ struct AddRecipeView: View {
                     } label: {
                         Label("Cancel", systemImage: "xmark")
                             .labelStyle(.iconOnly)
+                            .foregroundColor(.indigo)
                     }
                 }
                 
@@ -72,6 +71,7 @@ struct AddRecipeView: View {
                         } label: {
                             Label("Done", systemImage: "checkmark")
                                 .labelStyle(.iconOnly)
+                                .foregroundColor(.indigo)
                         }
                         .disabled(name.isEmpty)
                     }
