@@ -1,7 +1,7 @@
 # Cooking App
 
 - Recipes from data are listed on the home screen.
-- You can use the <a href="https://newsapi.org/s/google-news-api">allrecipes</a> site to generate the data.
+- You can use the <a href="https://www.allrecipes.com">allrecipes</a> site to generate the data.
 - Lottie animation was used on the splash screen.
 - In addition to the listed recipes, you can add a recipe from the new recipe screen.
 - On the categories screen, the recipes are filtered by category (dessert, soup, beverage, etc.)
