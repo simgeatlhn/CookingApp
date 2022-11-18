@@ -4,7 +4,7 @@
 - You can use the <a href="https://www.allrecipes.com">allrecipes</a> site to generate the data.
 - Lottie animation was used on the splash screen.
 - In addition to the listed recipes, you can add a recipe from the new recipe screen.
-- On the categories screen, the recipes are filtered by category (dessert, soup, beverage, etc.)
+- On the categories screen, the recipes are filtered by category (dessert, soup, drink, etc.)
 
 # Technologies
 
