@@ -16,7 +16,7 @@
 
 # Mockup
 
-<img width="835" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203166214-4f7bab65-5abc-48ce-b754-861e5e4c2d87.png">
+<img width="792" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203160500-786725b4-0ee8-4e83-8792-66c9604a5a13.png">
 
 # Demo
 
