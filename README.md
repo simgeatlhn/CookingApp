@@ -18,7 +18,6 @@
 
 https://user-images.githubusercontent.com/73952475/202733175-e2351c70-4266-484b-8723-fd0d1e3e01a8.mov
 
-<img width="792" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203160500-786725b4-0ee8-4e83-8792-66c9604a5a13.png">
-
+<img width="792" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203163367-f912a104-a300-4fcd-a507-f6d80b128f75.png">
 
  
