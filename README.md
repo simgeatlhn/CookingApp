@@ -14,10 +14,13 @@
 - SPM
 - Lottie Animation
 
+# Mockup
+
+<img width="835" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203166214-4f7bab65-5abc-48ce-b754-861e5e4c2d87.png">
+
 # Demo
 
 https://user-images.githubusercontent.com/73952475/202733175-e2351c70-4266-484b-8723-fd0d1e3e01a8.mov
 
-<img width="792" alt="Mockup" src="https://user-images.githubusercontent.com/73952475/203163367-f912a104-a300-4fcd-a507-f6d80b128f75.png">
 
  
