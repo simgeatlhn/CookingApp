@@ -96,11 +96,12 @@
 		604F75AC29241DD50088B7C6 /* CookingApp */ = {
 			isa = PBXGroup;
 			children = (
-				604F75AD29241DD50088B7C6 /* CookingAppApp.swift */,
+				60B0486429479B8800096490 /* Network */,
+				60B0486329479B1000096490 /* Scenes */,
+				60B0486229479B0200096490 /* Core */,
+				60D12C652927BCBD002D47AB /* SplashScreen */,
 				601DBC12292583B600CEC403 /* Resources */,
 				604F75BE29241E320088B7C6 /* Models */,
-				604F75BD29241E290088B7C6 /* ViewModels */,
-				604F75BC29241E250088B7C6 /* View */,
 				604F75B329241DD80088B7C6 /* Preview Content */,
 			);
 			path = CookingApp;
@@ -112,26 +113,6 @@
 				604F75B429241DD80088B7C6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		604F75BC29241E250088B7C6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				60D12C652927BCBD002D47AB /* SplashScreen */,
-				601DBC132925847F00CEC403 /* TabBar */,
-				604F75D72924202D0088B7C6 /* Main */,
-				604F75C129241EC10088B7C6 /* Components */,
-				604F75C029241EB50088B7C6 /* Detail */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		604F75BD29241E290088B7C6 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				601DBC102925779700CEC403 /* RecipesViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		604F75BE29241E320088B7C6 /* Models */ = {
@@ -170,6 +151,33 @@
 				601DBC0A292566E300CEC403 /* CategoriesView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		60B0486229479B0200096490 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				604F75AD29241DD50088B7C6 /* CookingAppApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60B0486329479B1000096490 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				604F75C129241EC10088B7C6 /* Components */,
+				604F75C029241EB50088B7C6 /* Detail */,
+				604F75D72924202D0088B7C6 /* Main */,
+				601DBC132925847F00CEC403 /* TabBar */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		60B0486429479B8800096490 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				601DBC102925779700CEC403 /* RecipesViewModel.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		60D12C652927BCBD002D47AB /* SplashScreen */ = {
